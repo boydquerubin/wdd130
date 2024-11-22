@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Condiment&family=Jura:wght@300..700&display=swap");
+
+:root {
+  --text-align: center;
+  --oxford-blue: #091c2f;
+  --cinnabar: #fc4a2d;
+  --baby-powder: #f9fcfa;
+  --process-cyan: #19b8ee;
+  --fire-engine-red: #d31818;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jura", Arial, Helvetica, sans-serif;
+  background-color: var(--baby-powder);
+  color: var(--oxford-blue);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  line-height: 1.6;
+}
+
+header nav {
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 16px;
+  background-color: var(--oxford-blue);
+  color: var(--baby-powder);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--baby-powder);
+  transition: color 0.3s ease;
+}
+
+h2 {
+  font-family: "Condiment", Arial, Helvetica, sans-serif;
+  color: var(--cinnabar);
+  margin-bottom: 16px;
+}
+
+p {
+  color: var(--oxford-blue);
+  margin-bottom: 16px;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+  position: absolute;
+  color: var(--cinnabar);
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: xx-large;
+  top: 200px;
+  padding: 20px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.hero article {
+  position: absolute;
+  top: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin: 5rem;
+  max-width: 1000px;
+  border-radius: 8px;
+}
+
+.hero article p {
+  color: var(--baby-powder);
+}
+
+.hero article img {
+  width: 200px;
+  height: auto;
+  float: right;
+  margin: 0 20px 20px 0;
+}
+
+.history {
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--oxford-blue);
+}
