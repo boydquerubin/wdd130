@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Condiment&family=Jura:wght@300..700&display=swap");
+
+body {
+  font-family: "Condiment", Arial, Helvetica, sans-serif;
+}
+
+nav {
+  font-family: "Jura", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: "Jura", Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: "Jura", Arial, Helvetica, sans-serif;
+}
+
+footer {
+  font-family: "Jura", Arial, Helvetica, sans-serif;
+}
