@@ -27,18 +27,14 @@ body {
 
 header nav {
   font-size: larger;
-  display: flex;
-  justify-content: center;
   gap: 20px;
-  padding: 16px;
-  background-color: var(--oxford-blue);
-  color: var(--baby-powder);
+  padding: 8px;
+  color: var(--oxford-blue);
 }
 
 nav a {
   text-decoration: none;
-  color: var(--baby-powder);
-  transition: color 0.3s ease;
+  color: var(--oxford-blue);
 }
 
 h2 {
@@ -105,4 +101,9 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   color: var(--oxford-blue);
+}
+
+footer img {
+  width: 50px;
+  padding: 5px;
 }
