@@ -45,7 +45,6 @@ h2 {
 
 p {
   color: var(--oxford-blue);
-  margin-bottom: 16px;
 }
 
 .hero {
@@ -101,7 +100,7 @@ p {
 }
 
 .history {
-  margin-top: 20px;
+  margin: 20px 0px 20px 0px;
 }
 
 footer {
