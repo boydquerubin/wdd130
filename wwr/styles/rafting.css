@@ -59,6 +59,14 @@ p {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.adventure-awaits-you img {
+  display: block;
+  width: 600px;
+  height: auto;
+  margin: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .hero h1 {
   position: absolute;
   color: var(--cinnabar);
