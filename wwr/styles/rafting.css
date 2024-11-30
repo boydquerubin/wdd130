@@ -76,6 +76,7 @@ p {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
 }
 
@@ -139,6 +140,7 @@ p {
   width: 400px;
   height: auto;
   margin: 0 20px;
+  border-radius: 5px;
   /* float: right; */
   /* display: flex; */
   /* justify-content: center; */
@@ -165,6 +167,7 @@ p {
   width: 200px;
   height: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 
