@@ -35,6 +35,8 @@ header {
 header img {
   padding: 0px 50% 0px 50%;
   margin: 20px;
+  /* width: 600px; */
+  /* height: auto; */
   border-radius: 50%;
 }
 
