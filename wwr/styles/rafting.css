@@ -300,7 +300,6 @@ label[for="reservation-question"],
 label[for="website-suggestion"] {
   color: #091c2f;
   all: unset;
-  align-items: left;
   float: left;
   display: flex;
 }
