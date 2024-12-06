@@ -25,46 +25,60 @@
     </header>
 
     <main>
-      <div class="company-info">
-        <h1>Contact Us</h1>
-        <h2>Send us a message</h2>
-        <p>Address: White Water Mountain, Idaho, 83567</p>
-        <p>Phone: 208-123-4567</p>
-        <p>Email: wwr@gmail.com</p>
-        <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15994.864096617426!2d-116.87915055370603!3d44.87208163760292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6a390d3de05e5%3A0x105ba51021f82762!2sSnake%20River!5e0!3m2!1sen!2sus!4v1733457328778!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="contact-page">
+        <div class="company-info">
+          <h1>Contact Us</h1>
+          <h2>Send us a message</h2>
+          <p>We love questions and feedback - and we're always happy to help! Here are some ways to contact us.</p><br>
+          <p>Address: White Water MT, Idahome, ID, 83567</p><br>
+          <p>Phone: 123-456-7890</p><br>
+          <p>Email: wwr-contact-us@gmail.com</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15994.864096617426!2d-116.87915055370603!3d44.87208163760292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6a390d3de05e5%3A0x105ba51021f82762!2sSnake%20River!5e0!3m2!1sen!2sus!4v1733457328778!5m2!1sen!2sus" width="250px" height="250px" style="border: 0.5px; border-radius: 10px; margin: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="form-field">
+          <form>
+            <fieldset>
+              <div>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your name"> 
+              </div>
+              <div class="form-item column2">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail" placeholder="Your email address">
+              </div>        
+              <label for="purpose-of-message">Purpose of Message</label>
+              <div class="purpose-div">
+                <div>
+                  <input type="radio" id="general-inquiry" name="pom" value="general-inquiry">
+                  <label for="general-inquiry">General Inquiry</label>
+                </div>
+                <div>
+                  <input type="radio" id="reservation-question" name="pom" value="reservation-question">
+                  <label for="reservation-question">Reservation Question</label>
+                </div>
+                <div>
+                  <input type="radio" id="website-suggestion" name="pom" value="website-suggestion">
+                  <label for="website-suggestion">Website Suggestion</label>
+                </div>
+              </div>              
+        
+              <div class="subscribe-div">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+              </div>
+              <div class="message-box">
+                <label for="feedback-message">Leave us a message</label>
+                <textarea id="feedback-message" name="feedback-message" rows="4" placeholder="Write your message here..."></textarea>
+              </div>
+              <button type="submit">Send Message</button>
+            </fieldset>
+          </form>
         </div>
       </div>
-      <form>
-        <fieldset>
-          <div class="form-item column2">
-            <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" name="fullname" placeholder="Your name"> 
-          </div>
-          <div class="form-item column2">
-            <label for="useremail">Email:</label>
-            <input type="email" id="useremail" name="useremail" placeholder="Your email address">
-          </div>
-        </fieldset>
-        <fieldset>
-          <div class="form-item column1">
-            <label for="purpose-of-message">Purpose of Message</label>
-            <select id="purpose-of-message" name="purpose-of-message">
-              <option value="general-inquiry">General Inquiry</option>
-              <option value="reservation-question">Reservation Question</option>
-              <option value="website-suggestion">Website Suggestion</option>
-            </select>
-          </div>      
-    
-          <div class="form-item column1">
-            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-            <input type="checkbox" id="subscribe" name="subscribe">
-          </div>
-          <label for="feedback-message">Leave us a message</label>
-          <textarea id="feedback-message" name="feedback-message" rows="4" placeholder="Write your message here..."></textarea>
-        </fieldset>
-        <button type="submit">Submit Poll</button>
-      </form>
+
+      <div>
+        <h2>Meet the Crew</h2>
+      </div>
     </main>
 
     <footer>
@@ -80,6 +94,7 @@
         <a href="https://www.youtube.com/" target="_blank"
           ><img src="images/youtube.png" alt="YouTube"
         /></a>
+        <a href="https://app.moqups.com/yeMpdBdSZVC2nzNQyqNmGTbtvO4MOwVG/view/page/a9a5f8d52?ui=0" target="_blank">Wireframe</a>
       </nav>
     </footer>
   </body>
