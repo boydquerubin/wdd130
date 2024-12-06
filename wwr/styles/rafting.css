@@ -351,7 +351,7 @@ fieldset textarea{
 }
 
 fieldset button {
-  background-color: var(--process-cyan);
+  background-color: var(--oxford-blue);
   color: var(--baby-powder);
   font-size: 1rem;
   font-weight: bold;
@@ -364,7 +364,7 @@ fieldset button {
 }
 
 fieldset button:hover {
-  background-color: var(--oxford-blue);
+  background-color: var(--process-cyan);
 }
  
 .message-box label {
