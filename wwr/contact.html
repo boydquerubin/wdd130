@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Boyd Querubin">
+    <meta name="description" content="Contact page for White Water Rafting Company.">
+    <title>White Water Rafting | Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bokor&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img src="images/ww_logo.png" alt="White Water Rafting Logo" />
+      <nav class="header-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="company-info">
+        <h1>Contact Us</h1>
+        <h2>Send us a message</h2>
+        <p>Address: White Water Mountain, Idaho, 83567</p>
+        <p>Phone: 208-123-4567</p>
+        <p>Email: wwr@gmail.com</p>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15994.864096617426!2d-116.87915055370603!3d44.87208163760292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6a390d3de05e5%3A0x105ba51021f82762!2sSnake%20River!5e0!3m2!1sen!2sus!4v1733457328778!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <form>
+        <fieldset>
+          <div class="form-item column2">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Your name"> 
+          </div>
+          <div class="form-item column2">
+            <label for="useremail">Email:</label>
+            <input type="email" id="useremail" name="useremail" placeholder="Your email address">
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="form-item column1">
+            <label for="purpose-of-message">Purpose of Message</label>
+            <select id="purpose-of-message" name="purpose-of-message">
+              <option value="general-inquiry">General Inquiry</option>
+              <option value="reservation-question">Reservation Question</option>
+              <option value="website-suggestion">Website Suggestion</option>
+            </select>
+          </div>      
+    
+          <div class="form-item column1">
+            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+          </div>
+          <label for="feedback-message">Leave us a message</label>
+          <textarea id="feedback-message" name="feedback-message" rows="4" placeholder="Write your message here..."></textarea>
+        </fieldset>
+        <button type="submit">Submit Poll</button>
+      </form>
+    </main>
+
+    <footer>
+      <div class="filler"></div>
+      <p>©️2024 White Water Rafting | Boyd Querubin</p>
+      <nav class="sociallinks">
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img src="images/facebook.png" alt="Facebook"
+        /></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img src="images/instagram.png" alt="Instagram"
+        /></a>
+        <a href="https://www.youtube.com/" target="_blank"
+          ><img src="images/youtube.png" alt="YouTube"
+        /></a>
+      </nav>
+    </footer>
+  </body>
+</html>
