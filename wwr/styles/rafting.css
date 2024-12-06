@@ -382,3 +382,20 @@ fieldset button:hover {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+
+.meet-the-crew {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.meet-the-crew  img {
+  margin: 0px 20px;
+  border-radius: 25px;
+}
+
+.crew-heading {
+  text-align: center;
+  font-size: x-large;
+}
