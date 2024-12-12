@@ -76,15 +76,14 @@ p {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
 }
 
 .hero h1 {
   position: absolute;
-  color: var(--cinnabar);
+  color: var(--baby-powder);
   background-color: rgba(0, 0, 0, 0.5);
-  font-size: xx-large;
+  font-size: xxx-large;
   top: 200px;
   padding: 20px;
   width: 100%;
@@ -98,12 +97,27 @@ p {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   margin: 5rem;
-  max-width: 1000px;
+  max-width: 100%;
   border-radius: 8px;
+  align-items: center;
 }
 
 .hero article p {
   color: var(--baby-powder);
+}
+
+.hero h2 {
+  color: var(--baby-powder);
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 300px;
+  background-color: rgba(209, 208, 208, 0.5);
+  padding: 20px;
+  margin: 5rem;
+  max-width: 100%;
+  border-radius: 8px;
+  align-items: center;
+  color: #091c2f;
 }
 
 .hero article img {
@@ -295,6 +309,10 @@ fieldset input {
   border: 1px solid #ccc;
 }
 
+fieldset h2 {
+  text-align: center;
+}
+
 label[for="general-inquiry"],
 label[for="reservation-question"],
 label[for="website-suggestion"] {
@@ -400,8 +418,9 @@ fieldset button:hover {
   font-size: x-large;
 }
 
-.index-hero img{
-  display: block;
-  width: 100%;
-  height: auto;
+.index-info {
+  display: flex;
+  flex: 1;
+  padding: 1rem;
+  margin: 1rem;
 }
