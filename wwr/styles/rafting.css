@@ -177,6 +177,7 @@ p {
   gap: 20px;
   justify-items: center;
   align-items: start;
+  margin-bottom: 32px;
 }
 
 figure {
@@ -196,8 +197,7 @@ figcaption {
 footer {
   display: flex;
   /* justify-content: space-between; */
-  align-items: center;
-  margin-top: 32px;
+  align-items: center;  
   font-size: 0.9rem;
   color: var(--baby-powder);
   background-color: var(--oxford-blue);
@@ -387,6 +387,7 @@ fieldset button:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 32px;
 }
 
 .meet-the-crew  img {
@@ -397,4 +398,10 @@ fieldset button:hover {
 .crew-heading {
   text-align: center;
   font-size: x-large;
+}
+
+.index-hero-img img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
