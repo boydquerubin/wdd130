@@ -70,6 +70,10 @@ p {
 
 .hero {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .hero img {
@@ -82,7 +86,7 @@ p {
 .hero h1 {
   position: absolute;
   color: var(--baby-powder);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   font-size: xxx-large;
   top: 200px;
   padding: 20px;
@@ -93,13 +97,16 @@ p {
 
 .hero article {
   position: absolute;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
   top: 300px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 20px;
   margin: 5rem;
   max-width: 100%;
   border-radius: 8px;
-  align-items: center;
 }
 
 .hero article p {
@@ -111,13 +118,15 @@ p {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   position: absolute;
   top: 300px;
-  background-color: rgba(209, 208, 208, 0.5);
+  right: 350px;
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 20px;
   margin: 5rem;
   max-width: 100%;
   border-radius: 8px;
   align-items: center;
-  color: #091c2f;
+  color: #fff;
+  font-size: xx-large;
 }
 
 .hero article img {
@@ -423,4 +432,29 @@ fieldset button:hover {
   flex: 1;
   padding: 1rem;
   margin: 1rem;
+}
+
+.hero button {
+  background-color: var(--baby-powder);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px 0px 5px 0px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+}
+ 
+.hero button a {
+  text-decoration: none;
+}
+
+.message-box label {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
 }
