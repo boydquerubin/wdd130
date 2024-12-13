@@ -112,6 +112,7 @@ p {
 
 .hero article p {
   color: var(--baby-powder);
+  margin-bottom: 20px;
 }
 
 .hero h2 {
@@ -450,23 +451,7 @@ fieldset button:hover {
   padding: 1rem 0px;
 }
 
-.hero button {
-  background-color: var(--baby-powder);
-  color: white;
-  font-size: 1rem;
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin: 20px 0px 5px 0px;
-  cursor: pointer;
-  align-items: center;
-  text-align: center;
-}
- 
-.hero button a {
-  text-decoration: none;
-}
+
 
 .message-box label {
   display: inline-block;
@@ -483,7 +468,7 @@ fieldset button:hover {
 table {
   width: 100%;
   border: 2px solid var(--oxford-blue);
-  margin: 20px 0;
+  margin: 10px 0px 40px 0px;
   font-size: 1rem;
   text-align: left;
   border-radius: 5px;
@@ -524,4 +509,50 @@ button:hover {
   font-weight: bold;
   text-align: center;
   margin-top: 25px;
+}
+
+.trips-feedback {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+  padding: 50px;
+  width: 600px;
+  height: auto;
+  border-radius: 25px;
+  margin: 20px auto 40px auto;
+}
+
+.trips-feedback p {
+  margin-bottom: 10px;
+}
+
+.trips-feedback-button {
+  text-decoration: none;
+  background-color: var(--oxford-blue);
+  color: var(--baby-powder);
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+}
+
+.fun-zone-button {
+  text-decoration: none;
+  background-color: rgb(230, 230, 230);
+  color: var(--oxford-blue);
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  margin: 10px;
 }
